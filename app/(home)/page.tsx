@@ -1,6 +1,9 @@
 import { Suspense } from "react";
-import Books from "../apis/Books";
-import Lists from "../apis/Lists";
+import Lists from "../../apis/Lists";
+
+export const metadata = {
+  title: "Home",
+};
 
 export default async function Home() {
   return (
